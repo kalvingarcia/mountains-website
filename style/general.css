@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100vw;
+    margin: 0;
+    overflow-x: hidden;
+    user-select: none;
+}
+
+::-webkit-scrollbar {
+    width: 1vw;
+}
+
+::-webkit-scrollbar-track {
+    background: #a0a7b5;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #414f6b;
+}

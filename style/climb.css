@@ -1,0 +1,43 @@
+#buffer {
+    height: 7vh;
+    background-color: #414f6b;
+}
+
+#climb_text {
+    height: 20vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    position: relative;
+}
+
+#climb_title {
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 10vh;
+    color: #a0a7b5;
+}
+
+#climb_subtitle {
+    font-family: 'Oswald';
+    font-weight: 600;
+    font-size: 3vh;
+    position: absolute;
+    top: 6vh;
+    left: 5.5vw;
+    color: #414f6b;
+}
+
+#climb_body {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 2vh;
+    position: absolute;
+    top: 12vh;
+    color: #4d4d4d;
+    font-family: 'Lato';
+}
+
+#climb {
+    height: 100vh;
+    width: 100vw;
+}

@@ -1,0 +1,102 @@
+#nav_logo {
+    height: 3vw;
+    width: 3vw;
+}
+
+#nav_link {
+    padding-right: 4vw;
+    color: white;
+    font-family: 'Oswald';
+    font-size: 1.5vh;
+}
+
+#navbar {
+    padding: 1vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sticky_logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo_text {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bebas Neue';
+    font-size: 3vh;
+    padding-left: 1vw;
+    color: #4d4d4d;
+}
+
+#logo_text .larger {
+    margin-top: -1vh;
+    font-size: 3.5vh;
+    color: #414f6b;
+}
+
+#sticky_nav_content {
+    padding: 1vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sticky_nav {
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+#sticky_nav #nav_link {
+    color: #4d4d4d;
+}
+
+#footer {
+    height: 8vh;
+    background-color: #414f6b;
+}
+
+#footer_content {
+    padding: 1vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    mix-blend-mode: soft-light;
+}
+
+#footer_logo_content {
+    display: flex;
+    align-items: center;
+}
+
+#footer_logo {
+    height: 3vw;
+    width: 3vw;
+}
+
+#footer_logo_text {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bebas Neue';
+    font-size: 3vh;
+    padding-left: 1vw;
+    color: white;
+}
+
+#copyright {
+    font-family: 'Lato';
+    font-size: 1.5vh;
+    color: white;
+}

@@ -1,0 +1,22 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+	<title>Vector Smart Object-ai</title>
+	<style>
+		.s0 { fill: #ffffff } 
+		.s1 { fill: #bdc3c7 } 
+		.s2 { fill: #414f6b } 
+		.s3 { fill: #ecf0f1 } 
+	</style>
+	<g id="Layer 1">
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s0" d="m1024 512c0 39.8-4.5 78.6-13.2 115.8-188.5 101.3-233.6 95.3-476.5 95.3-157.1 0-319.9 230.2-413.8 118.9-75.2-89.1-120.5-204.3-120.5-330 0-282.8 229.2-512 512-512 282.8 0 512 229.2 512 512z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m512 1024c242.9 0 446.4-169.2 498.8-396.2l-96.1-137.8-90.7 58-168-236-284 364-100-40-151.5 206c94 111.3 234.5 182 391.5 182z"/>
+			<path id="&lt;Path&gt;" class="s2" d="m656 312l12.2 324 155.8-88z"/>
+			<path id="&lt;Path&gt;" class="s3" d="m179.2 843.1l92.8 24 90.2 111 165-144-66-153 194.8-369.1-284 364-100-40-100 136z"/>
+			<path id="&lt;Path&gt;" class="s2" d="m272 636v78l42.2-17.9-21.1 90 110.1-150.1z"/>
+			<path id="&lt;Path&gt;" class="s2" d="m620.2 828.1l78-117 138-43.1 66 135.6-78.2-55.5-155.8 164z"/>
+			<path id="&lt;Path&gt;" class="s2" d="m587.2 525.2l-75.2 152.9 53.7 87z"/>
+			<path id="&lt;Path&gt;" class="s3" d="m863.2 576.2l39 116.9 48-48z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m362.2 837.1l51.8-72-25.9 90z"/>
+		</g>
+	</g>
+</svg>

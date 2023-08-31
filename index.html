@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta 
+            name="description" 
+            content="This is a webpage that focuses to show my skill in replicating a PSD to HTML and CSS content.
+                This meta tag would be where some SEO could take place as it's the display description search engines 
+                use." 
+        />
+
+        <link rel="icon" type="image/x-icon" href="./assets/logo.ico">
+
+        <link rel="stylesheet" href="./style/general.css" />
+        <link rel="stylesheet" href="./style/nav.css" />
+        <link rel="stylesheet" href="./style/hero.css" />
+        <link rel="stylesheet" href="./style/history.css" />
+        <link rel="stylesheet" href="./style/carousel.css" />
+        <link rel="stylesheet" href="./style/climb.css" />
+        <link rel="stylesheet" href="./style/tabs.css" />
+
+        <title>Los Angeles Mountains</title>
+    </head>
+    <body>
+        <section id="hero">
+            <div id="navbar">
+                <img id="nav_logo" src="./assets/logo.svg" />
+                <div>
+                    <a id="nav_link" href="#history">01. HISTORY</a>
+                    <a id="nav_link" href="#climb">02. CLIMB</a>
+                </div>
+            </div>
+        </section>
+        <div id="sticky_nav">
+            <div id="sticky_nav_content">
+                <div id="sticky_logo">
+                    <img id="nav_logo" src="./assets/logo.svg" />
+                    <div id="logo_text">
+                        <span>LOS ANGELES</span>
+                        <span class="larger">MOUNTAINS</span>
+                    </div>
+                </div>
+                <div>
+                    <a id="nav_link" href="#history">01. HISTORY</a>
+                    <a id="nav_link" href="#climb">02. CLIMB</a>
+                </div>
+            </div>
+        </div>
+        <section id="history">
+            <div id="history_text">
+                <span id="history_title">01.</span>
+                <span id="history_subtitle">HISTORY</span>
+                <p id="history_body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum,
+                    consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. 
+                    Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut 
+                    quam. Vivamus suscipit dignissim tortor nec congue.
+                </p>
+            </div>
+            <div id="carousel_bg"></div>
+            <div id="carousel">
+                <div class="slide fade">
+                    <img src="./assets/human.png" class="slide_image" />
+                    <img src="./assets/mountain.png" class="slide_image" />
+                    <img src="./assets/human.png" class="slide_image" />
+                    <img src="./assets/mountain.png" class="slide_image" />
+                </div>
+                <div class="slide fade">
+                    <img src="./assets/human.png" class="slide_image" />
+                    <img src="./assets/mountain.png" class="slide_image" />
+                    <img src="./assets/human.png" class="slide_image" />
+                    <img src="./assets/mountain.png" class="slide_image" />
+                </div>
+                <div class="slide fade">
+                    <img src="./assets/human.png" class="slide_image" />
+                    <img src="./assets/mountain.png" class="slide_image" />
+                    <img src="./assets/human.png" class="slide_image" />
+                    <img src="./assets/mountain.png" class="slide_image" />             
+                </div>
+                <a class="prev" onclick="moveSlides(-1)">&#10094;</a>
+                <a class="next" onclick="moveSlides(1)">&#10095;</a>
+                <div class="dot_container">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </section>
+        <section id="climb">
+            <div id="buffer"></div>
+            <div id="climb_text">
+                <span id="climb_title">02.</span>
+                <span id="climb_subtitle">CLIMB</span>
+                <p id="climb_body">Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. 
+                    Vivamus suscipit dignissim tortor nec congue. 
+                </p>
+            </div>
+            <div id="tabs">
+                <div id="tab_buttons">
+                    <button class="tab_link" onclick="showTab(1)">MOUNTAIN 1</button>
+                    <button class="tab_link" onclick="showTab(2)">MOUNTAIN 2</button>
+                </div>
+                <div id="mountain_1" class="tab_content fade">
+                    <div class="tab_schedule">
+                        <span class="tab_title">SCHEDULE</span>
+                        <table class="tab_table">
+                            <tr>
+                                <td>25 Nov 2016</td>
+                                <td>Vestibulum viverra</td>
+                            </tr>
+                            <tr>
+                                <td>28 Nov 2016</td>
+                                <td>Vestibulum viverra</td>
+                            </tr>
+                            <tr>
+                                <td>18 Dec 2016</td>
+                                <td>Vestibulum viverra</td>
+                            </tr>
+                            <tr>
+                                <td>7 Jan 2017</td>
+                                <td>Vestibulum viverra</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div id="mountain_2" class="tab_content fade">
+                    <div class="tab_schedule">
+                        <span class="tab_title">SCHEDULE</span>
+                        <table class="tab_table">
+                            <tr>
+                                <td>17 Nov 2016</td>
+                                <td>Vestibulum viverra</td>
+                            </tr>
+                            <tr>
+                                <td>13 Dec 2016</td>
+                                <td>Vestibulum viverra</td>
+                            </tr>
+                            <tr>
+                                <td>28 Dec 2016</td>
+                                <td>Vestibulum viverra</td>
+                            </tr>
+                            <tr>
+                                <td>9 Feb 2017</td>
+                                <td>Vestibulum viverra</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <div id="footer_content">
+                    <div id="footer_logo_content">
+                        <img id="footer_logo" src="./assets/logo.svg" />
+                        <div id="footer_logo_text">
+                            <span>LOS ANGELES MOUNTAINS</span>
+                        </div>
+                    </div>
+                    <span id="copyright">COPYRIGHT 2016. ALL RIGHTS RESERVED.</span>
+                </div>
+            </div>
+        </section>
+        <script src="./script/carousel.js"></script>
+        <script src="./script/tabs.js"></script>
+    </body>
+</html>
